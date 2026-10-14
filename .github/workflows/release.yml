@@ -35,7 +35,7 @@ jobs:
                   cd dist
                   zip -r ../rovalra-${{ github.ref_name }}.zip .
 
-            - name: Package Firefox extension
+            - name: Package Firefox Extension
               run: |
                   cd dist-firefox
                   zip -r ../rovalra-firefox-${{ github.ref_name }}.zip .
